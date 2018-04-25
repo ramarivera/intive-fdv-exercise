@@ -66,7 +66,8 @@ describe('PlayersFilter', () => {
     validatesAge(17.99, false);
     validatesAge(18, true);
     validatesAge(35, true);
-    validatesAge(42, true);
+    validatesAge(40, true);
+    validatesAge(42, false);
     validatesAge(50, false);
   });
 
